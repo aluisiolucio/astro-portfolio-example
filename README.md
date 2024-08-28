@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/assets/images/print.png" alt="Astro portifólio">
+</p>
+
 # Exemplo de Portfólio
 
 Este repositório contém o código-fonte de um site portfólio pessoal construído utilizando o Astro, um framework moderno para a construção de sites rápidos e estáticos.
