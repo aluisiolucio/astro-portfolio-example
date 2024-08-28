@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/assets/images/print.png" alt="Astro portifólio">
+  <img src="public/assets/images/print.png" alt="Astro portfólio">
 </p>
 
 # Exemplo de Portfólio
