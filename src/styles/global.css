@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --white: #FFFFFF;
+    --bg: #000000;
+    --halo: #E40037;
+    --primary-text: #FF003D;
+    --secondary-text: #C0C0C0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+
+    display: flex;
+	flex-direction: column;
+    
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    padding-inline: 3.5rem;
+}

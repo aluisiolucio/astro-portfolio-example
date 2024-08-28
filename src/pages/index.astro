@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Halo from '../components/Halo.astro';
+import Menu from '../components/Menu.astro';
+
+---
+
+<BaseLayout>
+	<Header />
+	<main class="container">
+		<Menu />
+		<Halo />
+		<img src="images/photo.png" alt="Photo">
+	</main>
+
+	<Footer />
+</BaseLayout>
+
+<style>
+	main {
+		flex: 1;
+	}
+
+	main img {
+		position: fixed;
+		bottom: 0;
+		left: 48%;
+		transform: translateX(-50%);
+	}
+</style>

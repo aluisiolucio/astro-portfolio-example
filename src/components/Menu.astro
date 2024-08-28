@@ -1,0 +1,39 @@
+<nav>
+    <ul>
+        <li class="rotated-text"><a href="/about">About</a></li>
+        <li class="rotated-text"><a href="/projects">Projects</a></li>
+        <li class="rotated-text"><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+<style>
+    nav {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+
+		height: 100%;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+
+		height: 100%;
+	}
+
+	nav ul li a {
+		color: var(--white);
+		font-size: 2rem;
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+    .rotated-text {
+		display: inline-block;
+		transform: rotate(90deg);
+		transform-origin: center;
+	}
+</style>
