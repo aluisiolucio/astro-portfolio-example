@@ -56,13 +56,13 @@ A landing page é uma ideia de um portfólio pessoal, onde você pode exibir seu
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/aluisiolucio/astro-portfolio-example.git
    ```
 
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd seu-repositorio
+   cd astro-portfolio-example
    ```
 
 3. Instale as dependências:
